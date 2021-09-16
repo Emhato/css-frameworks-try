@@ -1,0 +1,51 @@
+body,
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: white;
+  background: radial-gradient(circle, white 0%, #e5e5e5 100%);
+}
+
+.nav {
+  background-color: #EFEFEF;
+}
+
+.nav__logo {
+  color: #E92569;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+  margin-left: 5%;
+}
+
+.nav__a {
+  color: #0A0A0A;
+  border-radius: 3px;
+  padding: 0;
+  margin-left: 30px;
+}
+
+.nav__a--active {
+  background-color: #fff;
+}
+
+.nav__search {
+  border: none;
+}
+
+.nav__search-btn {
+  background-color: #E92569;
+  border: none;
+  color: #fff;
+  margin-right: 5%;
+  margin-left: -12px;
+  border-radius: 0 3px 3px 0;
+}
+
+.nav__burger-btn {
+  color: #E92569;
+}
+/*# sourceMappingURL=style.css.map */
